@@ -1,0 +1,10 @@
+D:\CSIS3540\ProjectTeam01ConsignmentStoreManagementSystem\ConsignmentStoreDB\bin\Debug\ConsignmentStoreDB.dacpac
+D:\CSIS3540\ProjectTeam01ConsignmentStoreManagementSystem\ConsignmentStoreDB\bin\Debug\ConsignmentStoreDB.dll
+D:\CSIS3540\ProjectTeam01ConsignmentStoreManagementSystem\ConsignmentStoreDB\bin\Debug\ConsignmentStoreDB.pdb
+D:\CSIS3540\ProjectTeam01ConsignmentStoreManagementSystem\ConsignmentStoreDB\obj\Debug\ConsignmentStoreDB.sqlprojAssemblyReference.cache
+D:\CSIS3540\ProjectTeam01ConsignmentStoreManagementSystem\ConsignmentStoreDB\obj\Debug\Model.xml
+D:\CSIS3540\ProjectTeam01ConsignmentStoreManagementSystem\ConsignmentStoreDB\obj\Debug\refactor.xml
+D:\CSIS3540\ProjectTeam01ConsignmentStoreManagementSystem\ConsignmentStoreDB\obj\Debug\postdeploy.sql
+D:\CSIS3540\ProjectTeam01ConsignmentStoreManagementSystem\ConsignmentStoreDB\obj\Debug\predeploy.sql
+D:\CSIS3540\ProjectTeam01ConsignmentStoreManagementSystem\ConsignmentStoreDB\obj\Debug\ConsignmentStoreDB.dll
+D:\CSIS3540\ProjectTeam01ConsignmentStoreManagementSystem\ConsignmentStoreDB\obj\Debug\ConsignmentStoreDB.pdb
