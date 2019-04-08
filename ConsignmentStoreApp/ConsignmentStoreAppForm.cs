@@ -13,18 +13,22 @@ using System.Diagnostics;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using ConsignmentStoreApp.SeedData;
+using ConsignmentStoreApp.Forms;
+using ConsignmentStoreApp.Controller;
 
 namespace ConsignmentStoreApp
 {
     public partial class ConsignmentStoreAppForm : Form
     {
         ConsignmentStoreEntities context;
+        Employee employee;
 
         public ConsignmentStoreAppForm()
         {
             InitializeComponent();
 
-            context = new ConsignmentStoreEntities();
+            //context = new ConsignmentStoreEntities();
+            context = ConsignmentStoreBusinessLogic.context;
 
             context.Database.Log = (s => Debug.Write(s));
 
@@ -39,8 +43,23 @@ namespace ConsignmentStoreApp
 
         private void ConsignmentStoreAppForm_Load(object sender, EventArgs e)
         {
-
+            //Seed database
             ConsignmentStoreSeedData.SeedDatabase(context);
+
+            LoginForm loginForm = new LoginForm();
+            
+            while (true)
+            {
+                switch (loginForm.ShowDialog())
+                {
+                    case DialogResult.Cancel:
+                        Close();//exit application
+                        return;
+                    case DialogResult.OK:
+                        MessageBox.Show(ConsignmentStoreBusinessLogic.loggedInEmployee.EmployeeEmail + " " + ConsignmentStoreBusinessLogic.loggedInEmployee.EmployeeType);
+                        return;
+                }
+            }
         }
     }
 }

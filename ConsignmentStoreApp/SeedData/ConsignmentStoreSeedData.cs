@@ -180,9 +180,8 @@ namespace ConsignmentStoreApp.SeedData
                         ReturnedBy = random.Next(1, 10)//employee return the consignment result
                     });
                 }
-
+                context.SaveChanges();
             }
-            context.SaveChanges();
 
             //if ExpenseCategories table has no data
             //then add some default category
@@ -198,8 +197,8 @@ namespace ConsignmentStoreApp.SeedData
                     new ExpenseCategory{Category = "ConsignmentResult", Description="Money returns to consignors"},
                     new ExpenseCategory{Category = "Others", Description="Not common expense e.g. "},
                 });
+                context.SaveChanges();
             }
-            context.SaveChanges();
 
             //if Expenses table has no data
             //then add some default Expenses
@@ -246,8 +245,8 @@ namespace ConsignmentStoreApp.SeedData
                         new Expens{Date = new DateTime(2019,month,28), Category="Others", Amount=random.Next(50,200)},
                     });
                 }
+                context.SaveChanges();
             }
-            context.SaveChanges();
 
             //if Overviews table has no data
             //populate Overviews data for each date
@@ -308,9 +307,8 @@ namespace ConsignmentStoreApp.SeedData
 
                     businessDate = businessDate.AddDays(1);//next day
                 }
-
+                context.SaveChanges();
             }
-            context.SaveChanges();
         }
 
         //Execute sql commands from a sql file
