@@ -4,7 +4,9 @@
     <IncludeCompositeObjects>True</IncludeCompositeObjects>
     <TargetDatabaseName>ConsignmentStoreDB</TargetDatabaseName>
     <DeployScriptFileName>ConsignmentStoreDB.sql</DeployScriptFileName>
-    <ProfileVersionNumber>1</ProfileVersionNumber>
     <TargetConnectionString>Data Source=(localdb)\MSSQLLocalDB;Integrated Security=True;Persist Security Info=False;Pooling=False;MultipleActiveResultSets=False;Connect Timeout=60;Encrypt=False;TrustServerCertificate=True</TargetConnectionString>
+    <BlockOnPossibleDataLoss>True</BlockOnPossibleDataLoss>
+    <CreateNewDatabase>True</CreateNewDatabase>
+    <ProfileVersionNumber>1</ProfileVersionNumber>
   </PropertyGroup>
 </Project>

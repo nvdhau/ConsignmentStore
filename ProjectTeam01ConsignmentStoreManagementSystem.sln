@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "ConsignmentStoreDB", "ConsignmentStoreDB\ConsignmentStoreDB.sqlproj", "{108010BA-72E8-40FE-9C54-170CAFA26279}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsignmentStoreApp", "ConsignmentStoreApp\ConsignmentStoreApp.csproj", "{F50DEF4C-7B14-4762-AC16-2BFB56FCC82B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +19,10 @@ Global
 		{108010BA-72E8-40FE-9C54-170CAFA26279}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{108010BA-72E8-40FE-9C54-170CAFA26279}.Release|Any CPU.Build.0 = Release|Any CPU
 		{108010BA-72E8-40FE-9C54-170CAFA26279}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{F50DEF4C-7B14-4762-AC16-2BFB56FCC82B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F50DEF4C-7B14-4762-AC16-2BFB56FCC82B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F50DEF4C-7B14-4762-AC16-2BFB56FCC82B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F50DEF4C-7B14-4762-AC16-2BFB56FCC82B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

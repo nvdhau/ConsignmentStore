@@ -1,0 +1,10 @@
+﻿insert into Employees (EmployeeName, EmployeePhone, EmployeePassword, EmployeeEmail, EmployeeType) values ('Admin', '790-822-7654', '123', 'admin@consign.com', 'admin');
+insert into Employees (EmployeeName, EmployeePhone, EmployeePassword, EmployeeEmail, EmployeeType) values ('Abra', '584-161-4812', '123', 'abra12@consign.com', 'employee');
+insert into Employees (EmployeeName, EmployeePhone, EmployeePassword, EmployeeEmail, EmployeeType) values ('Kippy', '547-496-4235', '123', 'kippy90@consign.com', 'employee');
+insert into Employees (EmployeeName, EmployeePhone, EmployeePassword, EmployeeEmail, EmployeeType) values ('Willa', '693-584-9460', '123', 'willa14@consign.com', 'employee');
+insert into Employees (EmployeeName, EmployeePhone, EmployeePassword, EmployeeEmail, EmployeeType) values ('Ellene', '408-614-2832', '123', 'ellene96@consign.com', 'employee');
+insert into Employees (EmployeeName, EmployeePhone, EmployeePassword, EmployeeEmail, EmployeeType) values ('Abra', '505-118-8248', '123', 'abra10@consign.com', 'employee');
+insert into Employees (EmployeeName, EmployeePhone, EmployeePassword, EmployeeEmail, EmployeeType) values ('Mendie', '870-818-9401', '123', 'mendie73@consign.com', 'employee');
+insert into Employees (EmployeeName, EmployeePhone, EmployeePassword, EmployeeEmail, EmployeeType) values ('Isidore', '923-154-2360', '123', 'isidore55@consign.com', 'employee');
+insert into Employees (EmployeeName, EmployeePhone, EmployeePassword, EmployeeEmail, EmployeeType) values ('Lucio', '118-731-0035', '123', 'lucio67@consign.com', 'employee');
+insert into Employees (EmployeeName, EmployeePhone, EmployeePassword, EmployeeEmail, EmployeeType) values ('Karie', '287-381-0016', '123', 'karie25@consign.com', 'employee');

@@ -1,6 +1,6 @@
 ﻿CREATE TABLE [dbo].[SoldItems]
 (
-	[ItemId] INT NOT NULL PRIMARY KEY IDENTITY, 
+	[ItemId] INT NOT NULL PRIMARY KEY, 
     [SoldBy] INT NOT NULL, 
     [SoldDate] DATE NOT NULL, 
     [DiscountAmount] NUMERIC(8, 2) NOT NULL DEFAULT 0.00,

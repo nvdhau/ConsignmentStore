@@ -8,7 +8,7 @@
     [TotalValueOfLostItems] MONEY NOT NULL DEFAULT 0.0,  
     [NumberOfSoldItems] INT NOT NULL, 
     [TotalValueOfSoldItems] MONEY NOT NULL, 
-    [TotalValueReceivedByConsignors] MONEY NOT NULL,
+    [TotalValueReceivedByConsignor] MONEY NOT NULL,
 	[ReturnedDate] DATE NULL, 
     [ReturnedBy] INT NULL, 
     PRIMARY KEY([ConsignorId], [ConsignmentPeriod]),
