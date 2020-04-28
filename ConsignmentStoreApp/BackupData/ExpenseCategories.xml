@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ExpenseCategories>
+  <ExpenseCategory Category="Advertising" Description="" />
+  <ExpenseCategory Category="ConsignmentResult" Description="Money returns to consignors" />
+  <ExpenseCategory Category="Discount" Description="Discount amount when selling items" />
+  <ExpenseCategory Category="Others" Description="Not common expense e.g. " />
+  <ExpenseCategory Category="Rent" Description="" />
+  <ExpenseCategory Category="Salary" Description="" />
+  <ExpenseCategory Category="Supplies" Description="label, bags, pen ..." />
+  <ExpenseCategory Category="Utilities" Description="Electricity, Heat (gas), Water" />
+</ExpenseCategories>

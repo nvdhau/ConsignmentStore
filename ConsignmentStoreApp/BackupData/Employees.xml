@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Employees>
+  <Employee EmployeeId="1" EmployeeName="Admin" EmployeeEmail="admin@consign.com" EmployeePhone="790-822-7654   " EmployeePassword="123" EmployeeType="admin     " />
+  <Employee EmployeeId="2" EmployeeName="Abra" EmployeeEmail="abra12@consign.com" EmployeePhone="584-161-4812   " EmployeePassword="123" EmployeeType="employee  " />
+  <Employee EmployeeId="3" EmployeeName="Kippy" EmployeeEmail="kippy90@consign.com" EmployeePhone="547-496-4235   " EmployeePassword="123" EmployeeType="employee  " />
+  <Employee EmployeeId="4" EmployeeName="Willa" EmployeeEmail="willa14@consign.com" EmployeePhone="693-584-9460   " EmployeePassword="123" EmployeeType="employee  " />
+  <Employee EmployeeId="5" EmployeeName="Ellene" EmployeeEmail="ellene96@consign.com" EmployeePhone="408-614-2832   " EmployeePassword="123" EmployeeType="employee  " />
+  <Employee EmployeeId="6" EmployeeName="Abra" EmployeeEmail="abra10@consign.com" EmployeePhone="505-118-8248   " EmployeePassword="123" EmployeeType="employee  " />
+  <Employee EmployeeId="7" EmployeeName="Mendie" EmployeeEmail="mendie73@consign.com" EmployeePhone="870-818-9401   " EmployeePassword="123" EmployeeType="employee  " />
+  <Employee EmployeeId="8" EmployeeName="Isidore" EmployeeEmail="isidore55@consign.com" EmployeePhone="923-154-2360   " EmployeePassword="123" EmployeeType="employee  " />
+  <Employee EmployeeId="9" EmployeeName="Lucio" EmployeeEmail="lucio67@consign.com" EmployeePhone="118-731-0035   " EmployeePassword="123" EmployeeType="employee  " />
+  <Employee EmployeeId="10" EmployeeName="Karie" EmployeeEmail="karie25@consign.com" EmployeePhone="287-381-0016   " EmployeePassword="123" EmployeeType="employee  " />
+</Employees>

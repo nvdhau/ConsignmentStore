@@ -41,6 +41,7 @@
             this.textBoxEmail.Name = "textBoxEmail";
             this.textBoxEmail.Size = new System.Drawing.Size(200, 26);
             this.textBoxEmail.TabIndex = 0;
+            this.textBoxEmail.Text = "admin@consign.com";
             // 
             // labelEmailDisplay
             // 
@@ -66,6 +67,7 @@
             this.textBoxPassword.Name = "textBoxPassword";
             this.textBoxPassword.Size = new System.Drawing.Size(200, 26);
             this.textBoxPassword.TabIndex = 3;
+            this.textBoxPassword.Text = "123";
             this.textBoxPassword.UseSystemPasswordChar = true;
             // 
             // buttonLogin

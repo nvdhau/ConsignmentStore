@@ -45,6 +45,7 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Security" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -73,6 +74,18 @@
     <Compile Include="EF Classes\Item.cs" />
     <Compile Include="EF Classes\Overview.cs" />
     <Compile Include="EF Classes\SoldItem.cs" />
+    <Compile Include="Forms\AddEditConsignorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AddEditConsignorForm.Designer.cs">
+      <DependentUpon>AddEditConsignorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\GenerateConsignmentResultsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\GenerateConsignmentResultsForm.Designer.cs">
+      <DependentUpon>GenerateConsignmentResultsForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -82,8 +95,57 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SeedData\ConsignmentStoreSeedData.cs" />
+    <Compile Include="UserControls\UserControlConsign.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UserControlConsign.Designer.cs">
+      <DependentUpon>UserControlConsign.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UserControlManageConsignmentResults.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UserControlManageConsignmentResults.Designer.cs">
+      <DependentUpon>UserControlManageConsignmentResults.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UserControlManageConsignors.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UserControlManageConsignors.Designer.cs">
+      <DependentUpon>UserControlManageConsignors.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UserControlManageExpenses.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UserControlManageExpenses.Designer.cs">
+      <DependentUpon>UserControlManageExpenses.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UserControlReportsAndBackup.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UserControlReportsAndBackup.Designer.cs">
+      <DependentUpon>UserControlReportsAndBackup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UserControlReturn.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UserControlReturn.Designer.cs">
+      <DependentUpon>UserControlReturn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UserControlSell.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UserControlSell.Designer.cs">
+      <DependentUpon>UserControlSell.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utilities\FormHelper.cs" />
     <EmbeddedResource Include="ConsignmentStoreAppForm.resx">
       <DependentUpon>ConsignmentStoreAppForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AddEditConsignorForm.resx">
+      <DependentUpon>AddEditConsignorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\GenerateConsignmentResultsForm.resx">
+      <DependentUpon>GenerateConsignmentResultsForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
@@ -97,6 +159,27 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="UserControls\UserControlConsign.resx">
+      <DependentUpon>UserControlConsign.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UserControlManageConsignmentResults.resx">
+      <DependentUpon>UserControlManageConsignmentResults.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UserControlManageConsignors.resx">
+      <DependentUpon>UserControlManageConsignors.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UserControlManageExpenses.resx">
+      <DependentUpon>UserControlManageExpenses.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UserControlReportsAndBackup.resx">
+      <DependentUpon>UserControlReportsAndBackup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UserControlReturn.resx">
+      <DependentUpon>UserControlReturn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UserControlSell.resx">
+      <DependentUpon>UserControlSell.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -116,6 +199,8 @@
     <Content Include="SeedData\seed-employees.sql" />
     <Content Include="SeedData\seed-items.sql" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="BackupData\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -272,7 +272,7 @@ namespace ConsignmentStoreApp.SeedData
 
                 decimal incomeOfDate, expenseOfDate, incomeClientAssetOfDate, expenseClientAssetOfDate, budget, clientAsset;
 
-                while (businessDate < DateTime.Now)
+                while (businessDate <= DateTime.Now.Date)
                 {
                     //compute total income and expense of the businessDate
                     incomeOfDate = context.SoldItems.Sum(soldItem => soldItem.SoldDate == businessDate ? soldItem.Item.Price : 0);

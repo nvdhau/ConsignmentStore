@@ -16,6 +16,9 @@ namespace ConsignmentStoreApp.Forms
         public LoginForm()
         {
             InitializeComponent();
+
+            MaximizeBox = false;
+            MinimizeBox = false;
         }
 
         private void buttonLogin_Click(object sender, EventArgs e)

@@ -5,5 +5,5 @@
     [Amount] MONEY NOT NULL, 
     [Category] VARCHAR(100) NOT NULL, 
     [Note] TEXT NULL,
-	CONSTRAINT [FK_Expense_To_ExpenseCategory] FOREIGN KEY ([Category]) REFERENCES [ExpenseCategories]([Category])
+	CONSTRAINT [FK_Expense_To_ExpenseCategory] FOREIGN KEY ([Category]) REFERENCES [ExpenseCategories]([Category]) ON UPDATE CASCADE
 )

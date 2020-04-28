@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ConsignmentSummaries>
+  <ConsignmentSummary ConsignmentPeriod="201901" NumberOfConsingors="100" NumberOfConsignedItems="1000" TotalValueOfConsignedItems="55353.0000" NumberOfSoldItems="626" TotalValueOfSoldItems="34122.0000" TotalValueOfActualSoldValue="33727.0000" NumberOfLostItems="68" TotalValueOfLostItems="3957.0000" NumberOfReturnedItems="306" TotalValueOfReturnedItems="17274.0000" TotalValueReceivedByConsignors="26349.0000" />
+  <ConsignmentSummary ConsignmentPeriod="201902" NumberOfConsingors="100" NumberOfConsignedItems="1100" TotalValueOfConsignedItems="60616.0000" NumberOfSoldItems="708" TotalValueOfSoldItems="39343.0000" TotalValueOfActualSoldValue="38922.0000" NumberOfLostItems="7" TotalValueOfLostItems="383.0000" NumberOfReturnedItems="385" TotalValueOfReturnedItems="20890.0000" TotalValueReceivedByConsignors="27483.0000" />
+</ConsignmentSummaries>

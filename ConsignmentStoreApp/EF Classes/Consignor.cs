@@ -5,9 +5,12 @@ namespace ConsignmentStoreApp.EF_Classes
     using System.ComponentModel.DataAnnotations;
     using System.ComponentModel.DataAnnotations.Schema;
     using System.Data.Entity.Spatial;
+    using System.Xml.Serialization;
 
+    [Serializable]
     public partial class Consignor
     {
+       
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public Consignor()
         {
@@ -31,9 +34,11 @@ namespace ConsignmentStoreApp.EF_Classes
         [StringLength(50)]
         public string ConsignorEmail { get; set; }
 
+        [XmlIgnore]
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<ConsignmentResult> ConsignmentResults { get; set; }
 
+        [XmlIgnore]
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Item> Items { get; set; }
     }
